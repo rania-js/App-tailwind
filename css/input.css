@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../../node_modules/flowbite/";
+@theme{
+    --color-maincolor:rgb(139, 94, 53);
+    --color-bgSection1:rgb(246,246,246);
+    --color-bgSection2:rgb(251, 251, 251);
+}
+body{
+    font-family: 'Playwrite HU', cursive;
+}
+
+.head
+{
+    background-image: url(../images/wraper-min.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+ .container {
+    @apply  mx-30 my-20;
+ }
+
